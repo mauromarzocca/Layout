@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Portfolio</title>
+    <style>
+      /* Reset dei margini e dei padding */
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      /* Impostazione dello stile del body */
+      body {
+        font-family: "Ubuntu Mono", monospace;
+        font-size: 16px;
+        color: #fff;
+        background-color: #000;
+        text-align: center;
+        overflow: hidden;
+      }
+      /* Stile del contenitore del terminale */
+      .terminal {
+        width: 80%;
+        max-width: 800px;
+        margin: 50px auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        box-shadow: 0 0 10px #ccc;
+        background-color: #000;
+        text-align: left;
+        overflow: auto;
+      }
+      /* Stile dell'output del terminale */
+      .output {
+        margin-top: 10px;
+      }
+      /* Stile dei comandi del terminale */
+      .command {
+        font-weight: bold;
+        color: #0f0;
+      }
+      /* Stile dei prompt del terminale */
+      .prompt {
+        color: #0ff;
+      }
+      /* Stile dei commenti del terminale */
+      .comment {
+        color: #777;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="terminal">
+      <div class="output">
+        <span class="comment"># Benvenuto nel mio portfolio!</span>
+      </div>
+      <div class="output">
+        <span class="prompt">$</span>
+        <span class="command">ls</span>
+      </div>
+      <div class="output">
+        <span class="comment"># Elenco dei miei progetti:</span>
+      </div>
+      <div class="output">
+        <span class="prompt">$</span>
+        <span class="command">cat progetti.txt</span>
+      </div>
+      <div class="output">
+        <pre>
+Nome del progetto          Descrizione
+------------------------  ------------------------------------------------------------------
+Progetto 1                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Progetto 2                 Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Progetto 3                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+Progetto 4                 Duis aute irure dolor in reprehenderit in voluptate velit esse.
+        </pre>
+      </div>
+      <div class="output">
+        <span class="prompt">$</span>
+        <span class="command">cat contatti.txt</span>
+      </div>
+      <div class="output">
+        <pre>
+Contatti
+--------
+Email: email@example.com
+Telefono: +39 123 456789
+LinkedIn: linkedin.com/in/username
+        </pre>
+      </div>
+    </div>
+  </body>
+</html>
