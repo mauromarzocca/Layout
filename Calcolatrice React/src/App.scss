@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+$color: #161122;
+$btn-color: lighten($color, 8%);
+$digit-btn-color: lighten($color, 8%);
+$operation-btn-color: lighten($color, 8%);
+
+body {
+  font-family: 'Inter', sans-serif;
+
+}
